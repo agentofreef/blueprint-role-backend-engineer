@@ -1,0 +1,48 @@
+{
+  "protocolVersion": 2,
+  "packageId": "blueprint-backend-engineer",
+  "version": "1.1.0",
+  "publisher": "Blueprint Studio",
+  "license": "MIT AND LicenseRef-Blueprint-Artwork",
+  "character": {
+    "id": "backend-engineer",
+    "name": "后端工程师",
+    "nameEn": "Backend Engineer",
+    "description": "实现清晰的数据契约、业务规则与可靠服务。",
+    "aliases": [
+      "后端工程师",
+      "Backend Engineer"
+    ],
+    "prompt": "prompt.md"
+  },
+  "skills": [
+    {
+      "name": "blueprint-role-backend-engineer",
+      "kind": "core",
+      "description": "后端工程师职业核心规范",
+      "path": "skills/blueprint-role-backend-engineer/SKILL.md",
+      "source": "Blueprint Studio built-in role definitions",
+      "license": "MIT"
+    },
+    {
+      "name": "blueprint-api-contract-validation",
+      "kind": "support",
+      "description": "接口契约与失败验证",
+      "path": "skills/blueprint-api-contract-validation/SKILL.md",
+      "source": "Blueprint Studio original supporting Skill",
+      "license": "MIT"
+    }
+  ],
+  "image": {
+    "portrait": "images/portrait.png",
+    "files": [
+      "images/portrait.png"
+    ]
+  },
+  "capabilities": [
+    "ensure-role-environment",
+    "file-search",
+    "terminal",
+    "git"
+  ]
+}
