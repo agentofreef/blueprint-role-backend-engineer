@@ -1,7 +1,7 @@
 {
   "protocolVersion": 2,
   "packageId": "blueprint-backend-engineer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "Blueprint Studio",
   "license": "MIT AND LicenseRef-Blueprint-Artwork",
   "character": {
@@ -33,6 +33,47 @@
       "license": "MIT"
     }
   ],
+  "skillRequirements": [
+    {
+      "name": "api-design-principles",
+      "required": false,
+      "missingPrompt": "读取项目现有接口和调用方后，明确请求、响应、错误约定与兼容条件。",
+      "source": {
+        "kind": "github",
+        "repository": "wshobson/agents",
+        "commit": "34e50fee32114afd9475f25d81492712f08cb71c",
+        "path": "plugins/backend-development/skills/api-design-principles/SKILL.md",
+        "sha256": "1f6166c23c0a0f32d703c19d84b3c30c2873daefb9e8732339a009934fa17013"
+      }
+    },
+    {
+      "name": "test-driven-development",
+      "required": false,
+      "missingPrompt": "先为当前工作卡编写可复现的失败测试，再实现并复查。",
+      "source": {
+        "kind": "github",
+        "repository": "obra/superpowers",
+        "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+        "path": "skills/test-driven-development/SKILL.md",
+        "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+        "group": "Superpowers"
+      }
+    },
+    {
+      "name": "systematic-debugging",
+      "required": false,
+      "missingPrompt": "先复现并收集错误和调用证据，确认根因后再改动。",
+      "source": {
+        "kind": "github",
+        "repository": "obra/superpowers",
+        "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+        "path": "skills/systematic-debugging/SKILL.md",
+        "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+        "group": "Superpowers"
+      }
+    }
+  ],
+  "installScript": "setup/install.json",
   "image": {
     "portrait": "images/portrait.png",
     "files": [

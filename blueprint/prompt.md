@@ -28,3 +28,5 @@
 ## 执行环境
 
 - 在实际执行环境按工作需要核对 git。
+- 设计新接口时加载 `api-design-principles`。实施业务规则或修复缺陷时按需加载 Superpowers 的 `test-driven-development` 或 `systematic-debugging`。
+- 在 GitHub 角色市场的角色详情检查环境。缺少所需 Skill 时可使用「安装缺失项」，从顶部消息中心查看后台执行结果。

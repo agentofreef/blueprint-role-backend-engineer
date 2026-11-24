@@ -1,0 +1,7 @@
+{
+  "steps": [
+    "skill:api-design-principles",
+    "skill:test-driven-development",
+    "skill:systematic-debugging"
+  ]
+}
