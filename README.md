@@ -11,7 +11,7 @@
 
 ## 检查 Skill 与环境
 
-在 Blueprint Studio v1.69.16 或更新版本中打开「设置 → 角色 → GitHub 角色市场 → 后端工程师」。更新到 v1.2.0 后，可从详情标题栏检查当前环境和安装缺失项。下载、安装以及复查进度在顶部铃铛中显示。
+在 Blueprint Studio v1.69.16 或更新版本中打开「设置 → 角色 → GitHub 角色市场 → 后端工程师」。安装 v1.2.0 或更新版本后，可从详情标题栏检查当前环境和安装缺失项。下载、安装以及复查进度在顶部铃铛中显示。
 
 v1.2.0 新增 `api-design-principles`，以及 Superpowers 中的 `test-driven-development` 和 `systematic-debugging`。它们根据任务按需使用。来源、固定提交及缺失时的提示见 [依赖清单](blueprint/setup/requirements.json)。
 
