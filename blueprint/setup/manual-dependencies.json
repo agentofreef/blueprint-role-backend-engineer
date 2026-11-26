@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "node",
+      "label": "Node.js（按项目需要）",
+      "kind": "tool",
+      "url": "https://nodejs.org/"
+    }
+  ]
+}
